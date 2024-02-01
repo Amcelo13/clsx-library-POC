@@ -1,0 +1,24 @@
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+.App.active{
+  background-color:green; 
+}
+.App.inactive{
+  background-color:blue; 
+}
+.App.disabled {
+  background-color: #cccccc;
+}
+.App.enabled {
+  background-color: red;
+}
